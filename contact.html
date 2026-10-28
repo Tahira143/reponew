@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Redinkroom Content Agency</title>
+  <meta name="description" content="Get in touch with Redinkroom Content Agency. Let's discuss your next content project.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">Redink<span>room</span></a>
+      <nav class="nav" id="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <p class="section-tag">Get in Touch</p>
+      <h1>Let’s <span>Talk</span></h1>
+      <p class="page-hero-desc">Have a project or idea? We’d love to hear from you.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container contact-grid">
+      <div class="contact-info">
+        <h2>Start a Project</h2>
+        <p>Tell us about your brand, goals and the kind of content you need. We’ll get back to you as soon as possible.</p>
+        
+        <div class="contact-details">
+          <div class="contact-item">
+            <h4>Email</h4>
+            <p><a href="mailto:hello@redinkroom.com">hello@redinkroom.com</a></p>
+          </div>
+          <div class="contact-item">
+            <h4>Based In</h4>
+            <p>India (Remote-friendly)</p>
+          </div>
+          <div class="contact-item">
+            <h4>Response Time</h4>
+            <p>Usually within 24–48 hours</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-form-wrap">
+        <form class="contact-form" name="redinkroom-contact" method="POST" data-netlify="true">
+          <input type="hidden" name="form-name" value="redinkroom-contact">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required placeholder="Your name">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required placeholder="you@example.com">
+          </div>
+          <div class="form-group">
+            <label for="service">Interested In</label>
+            <select id="service" name="service">
+              <option value="">Select a service</option>
+              <option value="Social Media Management">Social Media Management</option>
+              <option value="Content Writing">Content Writing</option>
+              <option value="Branding">Branding</option>
+              <option value="Script Writing">Script Writing</option>
+              <option value="Jingles">Jingles</option>
+              <option value="Ads / AI Ads">Ads / AI Ads</option>
+              <option value="Blogging">Blogging</option>
+              <option value="Audio Stories">Audio Stories</option>
+              <option value="Multiple / Custom">Multiple / Custom Package</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required placeholder="Tell us about your project..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+          <p class="form-note">Thank you for reaching out to RedInkRoom.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">Redink<span>room</span></a>
+        <p>Creative media content agency specializing in social, writing, branding, scripts, audio and AI-powered advertising.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-links">
+        <h4>Services</h4>
+        <a href="services.html">Social Media</a>
+        <a href="services.html">Content Writing</a>
+        <a href="services.html">Branding</a>
+        <a href="services.html">Script Writing</a>
+        <a href="services.html">AI Ads</a>
+      </div>
+      <div class="footer-links">
+        <h4>Connect</h4>
+        <a href="contact.html">Get in Touch</a>
+        <p class="footer-email">hello@redinkroom.com</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© 2026 Redinkroom Content Agency. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
